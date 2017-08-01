@@ -2,20 +2,16 @@
 <html style="padding:20px">
 <head>
   <meta charset="utf-8">
-  <title>PyInputToolExample</title>
+  <title>PySingleMultiInput</title>
 
 	<script type="text/javascript">
-		document.write('<link rel="import" href="' + window.Alteryx.LibDir + '1/lib/alteryx/gui/includes.html">');
+		document.write('<link rel="import" href="' + window.Alteryx.LibDir + '2/lib/includes.html">');
 	</script>
 </head>
 <body>
 	<form>
-    <fieldset>
-        <legend>XMSG("File Browse")</legend>
-        <alteryx-pluginwidget data-props='{type:"FileBrowse", id:"FileBrowse", dataName:"browseFiles", browseType: "File", isWorkflowDependency: true}' ></alteryx-pluginwidget>
-    </fieldset>
+    <legend class='blueTitle'>XMSG("Single Input with Allow-Multiple Example Tool")</legend>
 	</form>
-
   <style>
     /*This styling needs to be here. Is due to file loading. Otherwise, will not get proper styling on dropdowns*/
 
